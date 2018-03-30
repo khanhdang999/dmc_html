@@ -43,7 +43,7 @@ a:hover {
 	height: 30px;
 }
 
-.dropdown-menu li a{
+.dropdown-menu li a{s
 	padding: 5px 10px;
 	border-bottom: 1px solid #ccc;
 }
@@ -401,6 +401,21 @@ footer{
 	min-height: 400px;
 }
 
+
+/* Faq page */
+#faq .panel{
+  	margin: 20px;
+  	border-radius: 0;
+}
+  /* Icon when the collapsible content is shown */
+#faq h4:after {
+    content: ">";
+    float: right;
+}
+  /* Icon when the collapsible content is hidden */
+#faq .collapsed h4:after {
+    content: "v";
+}
 
 
 /* Dang Khanh */
